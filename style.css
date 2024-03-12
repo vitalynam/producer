@@ -11,6 +11,13 @@ a{
 ul, ol{
     list-style: none;
 }
+body{
+    font-size: 16px;
+    font-family: Roboto;
+}
+section{
+    padding-bottom: 95px;
+}
 .btn{
     background-color: #0033FF;
     border-radius: 8px;
@@ -20,6 +27,30 @@ ul, ol{
     max-width: 1200px;
     padding: 0 48px;
     margin: 0 auto;
+}
+.category{   /*span*/
+    font-size: 12px;
+    color: #A6A8AD;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+.subtitle{ /*h2*/
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.text-info{ /*p*/
+    color: #ffffff;
+    margin-bottom: 18px;
+    line-height: 24px;
+    display: block;
+    width: 430px;
+}
+.flex-section{
+    display: flex;
+    align-items: center;
+    gap: 80px;
 }
 /* HEADER ----------------------------------------------------------------------------*/
 .header{
@@ -88,30 +119,75 @@ ul, ol{
 .step__button{
     padding: 16px 32px;
 }
-/* CATALOG------------------------------- */
-.catalog{
+/* SOUND------------------------------- */
+.sound{
     padding-top: 95px;
 }
-.catalog .container{
+.sound__button{
+    padding: 5px 20px 7px 20px;
+}
+/* SKILLS---------------------- */
+.skills__info{
+    text-align: right;
+}
+/* PLUGINS ------------------------------ */
+.plugins__button{
+    padding: 5px 20px 7px 20px;
+}
+/*TECHNOLOGY---------------------------- */
+.technology__info{
+    text-align: right;
+}
+.technology__button{
+    padding: 7px 20px 9px 20px;
+}
+/* COMMUNITY------------------------------------ */
+.community__wrap{
     display: flex;
     align-items: center;
-    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.catalog__info span{
-    font-size: 12px;
-    color: #A6A8AD;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+.community__card{
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.catalog__info_title{
-    font-size: 28px;
+.community__card_avatar{
+    margin: 0 auto 30px auto;
+    width: 223px;
+    height: 223px;
+}
+.community__card_info{
+    margin-bottom: 16px;
+}
+/* BLOG------------------------- */
+.blog{
+    height: 728px;
+    background-image: url(image/splice.jpg);
+    background-color: #121214;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 57px;
+}
+.blog__title{
+    font-size: 54px;
     color: #ffffff;
-    margin-bottom: 12px;
 }
-.catalog__info_info{
-    color: #ffffff;
-    margin-bottom: 18px;
-}
-.catalog__button{
-    padding: 5px 20px 7px 20px;
+.blog__button{
+    padding: 8px 20px;
 }

@@ -17,10 +17,10 @@
             </div>
             <ul class="header__menu">
                 <li class="header__menu_link">
-                    <a href="#">Sounds</a>
+                    <a href="#sound">Sounds</a>
                 </li>
                 <li class="header__menu_link">
-                    <a href="#">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li class="header__menu_link">
                     <a href="#">Plugins</a>
@@ -40,7 +40,7 @@
             </ul>
             <div class="header__login">
                 <a href="#">Login</a>
-                <a href="#" class="header__login_sign btn">Sign up</a>
+                <a href="#" class="header__login_sign">Sign up</a>
             </div>
         </nav>
        </div>
@@ -54,20 +54,99 @@
                 <p class="step__subtitle">
                     Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.
                 </p>
-                <a href="#" class="step__button">Try free</a>
+                <a href="#" class="step__button btn">Try free</a>
             </div>
         </section>
-        <section class="catalog" id="catalog">
-            <div class="container">
-                <div class="catalog__info">
-                    <span>Sounds</span>
-                    <h2 class="catalog__info_title">A catalog so deep, it’s dangerous.</h2>
-                    <p class="catalog__info_info">Expertly created and curated samples in any style imaginable. Start swimming in sound.</p>
-                    <a href="#" class="btn catalog__button">Explore Sounds</a>
+
+        <section class="sound" id="sound">
+            <div class="container flex-section">
+                <div class="sound__info">
+                    <span class="category">Sounds</span>
+                    <h2 class="subtitle">A catalog so deep, it’s dangerous.</h2>
+                    <p class="text-info">Expertly created and curated samples in any style imaginable. Start swimming in sound.</p>
+                    <a href="#" class="btn sound__button">Explore Sounds</a>
                 </div>
-                <div class="catalog__image">
+                <div class="sound__image">
                     <img src="image/catalog.png" alt="catalog">
                 </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container flex-section">
+                <div class="skills__image">
+                    <img src="image/workflow.png" alt="skills">
+                </div>
+                <div class="skills__info">
+                    <span class="category">Connected Experience</span>
+                    <h2 class="subtitle">A workflow that actually flows.</h2>
+                    <p class="text-info">
+                        Preview samples in your track’s 
+                        key and tempo, drag and drop sounds into your DAW, 
+                        and organize your favorite samples, MIDI and presets in one place.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="plugins" id="plugins">
+            <div class="container flex-section">
+                <div class="plugins__info">
+                    <span class="category">Gear</span>
+                    <h2 class="subtitle">Build a drool-worthy studio, affordably.</h2>
+                    <p class="text-info">The industry’s top software, all in one place, on payment plans built to work for you.</p>
+                    <a href="#" class="btn plugins__button">Explore Gear</a>
+                </div>
+                <div class="plugins__img">
+                    <img src="image/gear.png" alt="plugins">
+                </div>
+            </div>
+        </section>
+
+        <section class="technology" id="technology">
+            <div class="container flex-section">
+                <div class="technology__img">
+                    <img src="image/coso.png" alt="technology">
+                </div>
+                <div class="technology__info">
+                    <span class="category">Technology</span>
+                    <h2 class="subtitle">Crate dig without the dust.</h2>
+                    <p class="text-info">Our intelligent search tools help you discover sounds you would normally have to dig to find. Tech breaks the sweat, not you.</p>
+                    <a href="#" class="btn technology__button">Discover CoSo</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="community" id="community">
+            <div class="container">
+                <h2 class="subtitle">What creators are saying about Splice</h2>
+                <div class="community__wrap">
+                    <div class="community__card">
+                        <img src="image/andrew.png" alt="Andrew" class="community__card_avatar">
+                        <p class="community__card_info">I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of inspiration.</p>
+                        <h3 class="community__card_name">Andrew Huang</h3>
+                    </div>
+    
+                    <div class="community__card">
+                        <img src="image/kshmr.png" alt="KSHMR" class="community__card_avatar">
+                        <p class="community__card_info">Finally a way to buy plugins that works. By paying a little at a time, producers can get legit access to the top VSTs.</p>
+                        <h3 class="community__card_name">KSHMR</h3>
+                    </div>
+    
+                    <div class="community__card">
+                        <img src="image/keisha.png" alt="Kesha" class="community__card_avatar">
+                        <p class="community__card_info">It’s been fun to dive into Splice’s creator community and explore tools that support my own creative process.</p>
+                        <h3 class="community__card_name">Kesha Lee</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog">
+            <div class="container">
+                <h2 class="blog__title">Try Splice today</h2>
+                <a href="#" class="btn blog__button">Start now</a>
             </div>
         </section>
     </main>
